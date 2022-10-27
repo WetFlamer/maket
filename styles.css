@@ -1,0 +1,1143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    height: 3913px;
+}
+
+.navigationBar {
+    position: absolute;
+    width: 1440px;
+    height: 116px;
+
+    left: 0%;
+    top: 0%;
+}
+
+
+
+
+.logo {
+
+    position: absolute;
+    left: 5%;
+    right: 91%;
+    top: 50%;
+
+    height: 39px;
+    width: 41px;
+
+    font-family: 'Homemade Apple';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+
+    color: #231F20;
+}
+
+.navCenter {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 23.33%;
+    bottom: 23.33%;
+    height: 61.86666488647461px;
+    width: 1440px;
+
+}
+
+
+.links {
+    position: absolute;
+    width: 331px;
+    height: 21px;
+    left: 38.5%;
+    top: 33%;
+    display: flex;
+}
+
+.link1 {
+
+    position: absolute;
+    left: 0%;
+    width: 49px;
+
+    font-family: 'Gilroy-light';
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #000000;
+
+}
+
+.link2 {
+    position: absolute;
+    left: 24.03%;
+    width: 75px;
+
+
+
+    font-family: 'Gilroy-light';
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.link3 {
+    position: absolute;
+    left: 56.39%;
+    width: 68px;
+
+    font-family: 'Gilroy-light';
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.link4 {
+    position: absolute;
+    left: 86%;
+    width: 46px;
+
+
+
+    font-family: 'Gilroy-light';
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #000000;
+
+}
+
+.buttonSecondary {
+    position: absolute;
+    height: 43.666664123535156px;
+    width: 150px;
+    left: 87%;
+    top: 35%;
+
+}
+
+.buttonSecondaryBG {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 2px solid #F7941E;
+    border-radius: 5px;
+}
+
+.buttonSecondaryText {
+    position: absolute;
+    height: 38px;
+    width: 140px;
+    font-family: 'Gilroy-light';
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    left: 19px;
+    top: 2px;
+    text-align: center;
+
+    color: #F7941E;
+}
+
+.backGround {
+    /* ВТОРОЙ ШАГ ФОН */
+    position: absolute;
+    top: 116px;
+    left: 0px;
+    width: 1440px;
+    height: 700px;
+
+    background: #F1F1F2;
+}
+
+.bgi {
+    position: absolute;
+    left: 50.00%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: url(.jpg), #F2F2F2;
+
+}
+
+.title {
+    position: absolute;
+    width: 433px;
+    height: 206px;
+    left: 162px;
+    top: 154px;
+
+    font-family: 'Gilroy-bold';
+    font-size: 56px;
+    line-height: 69px;
+
+    color: #000000;
+}
+
+.subtitle {
+    position: absolute;
+    width: 422px;
+    height: 57px;
+    left: 162px;
+    top: 396px;
+
+    font-family: 'Gilroy-light';
+    font-size: 20px;
+    line-height: 140.62%;
+    /* or 28px */
+
+
+    color: #000000;
+}
+
+.buttonPrimary {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 162px;
+    top: 505px;
+}
+
+.buttonPrimaryBG {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #F7941E;
+    border-radius: 5px;
+}
+
+.buttonPrimaryText {
+    position: absolute;
+    height: 22px;
+    left: 33px;
+    right: 24px;
+    top: 20px;
+
+    font-family: 'Gilroy-light';
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.FeatureSplitRight {
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 816px;
+}
+
+.FeatureSplitRightBG {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #F1F1F2;
+}
+
+.FeatureSplitRightImg {
+    position: absolute;
+    right: 50%;
+    top: -0.4%;
+    left: -0.13%;
+
+    background: url(.jpg), #000000;
+    transform: rotate(0.3deg);
+}
+
+.FeatureSplitRightTitle {
+    position: absolute;
+    left: 57.85%;
+    right: 20.68%;
+    top: 27.33%;
+    bottom: 65.17%;
+    height: 254px;
+    font-family: 'Gilroy-bold';
+    font-size: 32px;
+    line-height: 140.62%;
+    /* identical to box height, or 45px */
+
+
+    color: #000000;
+}
+
+.FeatureSplitRightSubTitle {
+    position: absolute;
+    left: 57.85%;
+    right: 11.53%;
+    top: 45.67%;
+    bottom: 33.17%;
+
+    font-family: 'Gilroy-light';
+    font-size: 20px;
+    line-height: 140.62%;
+    /* or 28px */
+
+    text-align: justify;
+
+    color: #000000;
+}
+
+.buttonSecondary2 {
+    position: absolute;
+    left: 57.85%;
+    right: 28.26%;
+    top: 72.67%;
+    bottom: 17.33%;
+
+}
+
+.buttonSecondaryBG2 {
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 35px;
+    bottom: 0%;
+    width: 200px;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    height: 60px;
+}
+
+.buttonSecondaryTitle2 {
+    position: absolute;
+    height: 25px;
+    left: 47px;
+    right: 46px;
+    top: 29%;
+    width: 200px;
+    font-family: 'Gilroy-Light';
+    font-size: 18px;
+    line-height: 134.77%;
+    /* identical to box height, or 24px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #F7941E;
+
+}
+
+.postsTally {
+    position: absolute;
+    width: 1440px;
+    height: 820px;
+    left: 0px;
+    top: 1417px;
+
+}
+
+.rectangle {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FFFFFF;
+}
+
+.giftfa {
+    position: absolute;
+    width: 422px;
+    height: 39px;
+    left: calc(50% - 422px/2);
+    top: 96px;
+
+    font-family: 'Gilroy-light';
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.tow {
+    position: absolute;
+    width: 454px;
+    height: 25px;
+    left: calc(50% - 454px/2);
+    top: 158px;
+
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 135.94%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+
+
+}
+
+.cardBlog1 {
+    position: absolute;
+    width: 270px;
+    height: 436px;
+    left: calc(50% - 270px/2 + 450px);
+    top: 247px;
+
+}
+
+.cardBlog2 {
+    position: absolute;
+    width: 270px;
+    height: 436px;
+    left: calc(50% - 270px/2 + 150px);
+    top: 247px;
+
+}
+
+.cardBlog3 {
+    position: absolute;
+    width: 270px;
+    height: 436px;
+    left: calc(50% - 270px/2 - 150px);
+    top: 247px;
+
+
+}
+
+.cardBlog4 {
+    position: absolute;
+    width: 270px;
+    height: 436px;
+    left: calc(50% - 270px/2 - 450px);
+    top: 247px;
+    filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
+
+}
+
+.cardBlogImg {
+    position: absolute;
+    height: 270px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    background: url(.jpg), #000000;
+
+}
+
+
+.content {
+    position: absolute;
+    width: 270px;
+    height: 166px;
+    left: 0px;
+    top: 270px;
+}
+
+.contentTitle {
+    position: absolute;
+    left: 8.89%;
+    right: 8.89%;
+    top: 20.43%;
+    bottom: 27.06%;
+
+    font-family: 'Gilroy-light';
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.seeMore {
+    position: absolute;
+    left: 8.89%;
+    right: 66.3%;
+    top: 69.91%;
+    bottom: 5.5%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.contentBG1 {
+    position: absolute;
+    height: 166px;
+    left: 0%;
+    right: 0%;
+    bottom: 0px;
+
+    background: #FFFFFF;
+}
+
+.contentBGother {
+    position: absolute;
+    height: 166px;
+    left: 0%;
+    right: 0%;
+    bottom: 0px;
+    background: #FAFAFA;
+}
+
+.ctasection {
+    position: absolute;
+    width: 1440px;
+    height: 240px;
+    left: 0px;
+    top: 2237px;
+
+}
+
+.ctabg {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #F7941E;
+}
+
+.ctagroup {
+    height: 90px;
+    width: 325px;
+    left: 235px;
+    top: 81px;
+
+
+
+}
+
+.ctagrouptitle1 {
+    position: absolute;
+    left: 16.32%;
+    right: 61.11%;
+    top: 33.75%;
+    bottom: 47.5%;
+
+    font-family: 'Gilroy-bold';
+    font-size: 32px;
+    line-height: 140.62%;
+    /* identical to box height, or 45px */
+
+
+    color: #000000;
+
+}
+
+.ctagrouptitle2 {
+    position: absolute;
+    left: 16.32%;
+
+    top: 52.5%;
+    bottom: 28.75%;
+
+    font-family: 'Gilroy-light';
+    font-size: 32px;
+    line-height: 140.62%;
+    /* identical to box height, or 45px */
+
+
+    color: #000000;
+}
+
+.buttonPrimary3 {
+    position: absolute;
+    left: 54.79%;
+    right: 31.32%;
+    top: 45%;
+    bottom: 35%;
+}
+
+.buttonPrimary3Text {
+    position: absolute;
+    height: 22px;
+    left: 30px;
+    top: 13px;
+
+    font-family: 'Gilroy-light';
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.buttonPrimary3BG {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: -4.17%;
+
+    background: #231F20;
+    border-radius: 5px;
+
+}
+
+
+.buttonSecondary3 {
+    position: absolute;
+    left: 69.79%;
+    right: 16.32%;
+    top: 45%;
+    bottom: 35%;
+
+}
+
+.buttonSecondary3Text {
+    position: absolute;
+    height: 25px;
+    left: 30px;
+    top: 13px;
+
+
+    font-family: 'Gilroy-light';
+    font-size: 18px;
+    line-height: 134.77%;
+    /* identical to box height, or 24px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+}
+
+.buttonSecondary3BG {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: -4.17%;
+
+    border: 1px solid #000000;
+    border-radius: 5px;
+
+}
+
+.pbt {
+    position: absolute;
+    width: 1440px;
+    height: 860px;
+    left: 0px;
+    top: 2643px;
+}
+
+.pbtGroup {
+    position: absolute;
+    width: 507px;
+    height: 87px;
+    left: 467px;
+    top: -78px;
+
+}
+
+.pbtGroupTitle {
+    position: absolute;
+    left: 25.35%;
+    top: 0%;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.pbtGroupSubTitle {
+    position: absolute;
+    height: 25px;
+    width: 607px;
+    left: 0px;
+    top: 60px;
+
+    font-family: 'Gilroy-Light';
+    font-size: 18px;
+    line-height: 135.94%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.bcfbg {
+    position: absolute;
+    height: 370px;
+    width: 1170px;
+    left: 135px;
+    top: 80px;
+    border-radius: 0px;
+
+
+    background: #231F20;
+}
+
+.bcfimg {
+    position: absolute;
+    height: 370px;
+    width: 400px;
+
+    border-radius: 0px;
+
+
+    background: url(.jpg), #222222;
+}
+
+.bcfauthor {
+    position: absolute;
+    height: 20px;
+    width: 150px;
+    left: 483px;
+    top: 43px;
+
+
+    font-family: 'Gilroy-light';
+    font-size: 14px;
+    line-height: 140.62%;
+    /* identical to box height, or 20px */
+
+
+    color: #FFFFFF;
+
+}
+
+.bcftitle {
+    position: absolute;
+    height: 125px;
+    width: 492px;
+    left: 483px;
+    top: 90px;
+
+
+    font-family: 'Gilroy-medium';
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #FFFFFF;
+}
+
+.bcflink {
+    position: absolute;
+    height: 26px;
+    width: 190px;
+    left: 483px;
+    top: 295px;
+
+
+    font-family: 'Gilroy-light';
+    font-size: 18px;
+    line-height: 140.62%;
+    /* identical to box height, or 25px */
+
+
+    color: #FFFFFF;
+}
+
+.bc1 {
+    position: absolute;
+    left: 9.38%;
+    right: 51.04%;
+    top: 56.98%;
+    bottom: 9.3%;
+
+}
+
+.bc2 {
+    position: absolute;
+    left: 51.04%;
+    right: 9.38%;
+    top: 56.98%;
+    bottom: 9.3%;
+
+}
+
+.bc1bg {
+    position: absolute;
+    left: 9.38%;
+    right: 51.04%;
+    top: 56.98%;
+    bottom: 9.3%;
+
+    background: #FFFFFF;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+
+}
+
+.bc2bg {
+    position: absolute;
+    left: 51.04%;
+    right: 9.38%;
+    top: 56.98%;
+    bottom: 9.3%;
+
+    background: #FFFFFF;
+}
+
+.bgtitle1 {
+    position: absolute;
+    height: 68px;
+    width: 474px;
+    left: 80px;
+    top: 50px;
+
+
+    font-family: 'Gilroy-bold';
+    font-size: 24px;
+    line-height: 140.62%;
+    /* or 34px */
+
+
+    color: #000000;
+
+}
+
+.bgtitle2 {
+    position: absolute;
+    height: 68px;
+    width: 474px;
+    left: 40px;
+    top: 50px;
+
+
+    font-family: 'Gilroy-bold';
+    font-size: 24px;
+    line-height: 140.62%;
+    /* or 34px */
+
+
+    color: #000000;
+
+}
+
+.bgsummary1 {
+    position: absolute;
+    height: 72px;
+    width: 474px;
+    left: 80px;
+    top: 150px;
+
+    font-family: 'Gilroy-Light';
+    font-size: 18px;
+    line-height: 140.62%;
+    /* or 25px */
+
+
+    color: #000000;
+
+
+}
+
+.bgsummary2 {
+    position: absolute;
+    height: 72px;
+    width: 474px;
+    left: 40px;
+    top: 150px;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 140.62%;
+    /* or 25px */
+
+
+    color: #000000;
+
+
+}
+
+.bglink1 {
+    position: absolute;
+    height: 72px;
+    width: 474px;
+    left: 80px;
+    top: 235px;
+
+    font-family: 'Gilroy-Light';
+    font-size: 14px;
+    line-height: 140.62%;
+    /* identical to box height, or 20px */
+
+
+    color: #000000;
+
+}
+
+.bglink2 {
+    position: absolute;
+    height: 72px;
+    width: 474px;
+    left: 40px;
+    top: 235px;
+
+    font-family: 'Gilroy-Light';
+    font-size: 14px;
+    line-height: 140.62%;
+    /* identical to box height, or 20px */
+
+
+    color: #000000;
+
+}
+
+.ft {
+    position: absolute;
+    width: 1440px;
+    height: 410px;
+    left: 0px;
+    top: 3502px;
+
+}
+
+.frame {
+    position: absolute;
+    width: 296px;
+    height: 40px;
+    left: 572px;
+    top: 243px;
+
+}
+
+.image1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+
+.image2 {
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 64px;
+    top: 0px;
+}
+
+.image3 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 128px;
+    top: 0px;
+}
+
+.image4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 192px;
+    top: 0px;
+}
+
+.image5 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 256px;
+    top: 0px;
+}
+
+.divider {
+    position: absolute;
+    left: 15.28%;
+    right: 15.28%;
+    top: 45.85%;
+    bottom: 55.15%;
+    border: 1px solid #000000;
+}
+
+.copyright {
+    position: absolute;
+    left: 42.92%;
+    top: 86.59%;
+    bottom: 8.54%;
+
+    font-family: 'Gilroy-light';
+    font-size: 14px;
+    line-height: 140.62%;
+    /* identical to box height, or 20px */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.pt {
+    position: absolute;
+    left: 50.42%;
+    top: 86.59%;
+    bottom: 8.54%;
+
+    font-family: 'Gilroy-light';
+    font-size: 14px;
+    line-height: 140.62%;
+    /* identical to box height, or 20px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.glogo {
+    position: absolute;
+    width: 41px;
+    height: 39px;
+    left: 706px;
+    top: 106px;
+}
+
+.glolog {
+    position: absolute;
+    left: 49.03%;
+    right: 48.12%;
+    top: 65%;
+    bottom: 64.63%;
+
+    font-family: 'Homemade Apple';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 39px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F7941E;
+
+
+}
+
+.lls {
+
+    position: absolute;
+    left: 28.19%;
+    right: 60.76%;
+    top: 28.05%;
+    bottom: 67.07%;
+}
+
+.ll1 {
+    position: absolute;
+    left: 0%;
+    top: 28.05%;
+    bottom: 67.07%;
+
+    font-family: 'Gilroy-light';
+    font-size: 14px;
+    line-height: 140.62%;
+    /* identical to box height, or 20px */
+
+
+    color: #000000;
+
+}
+
+.ll2 {
+    position: absolute;
+    left: 100%;
+    top: 28.05%;
+    bottom: 67.07%;
+
+    font-family: 'Gilroy-light';
+    font-size: 14px;
+    line-height: 140.62%;
+    /* identical to box height, or 20px */
+
+
+    color: #000000;
+}
+
+.lrs {
+    position: absolute;
+    left: 61.67%;
+    right: 29.17%;
+    top: 28.05%;
+    bottom: 67.07%;
+}
+.lr1 {
+    position: absolute;
+left: 0%;
+top: 28.05%;
+bottom: 67.07%;
+
+font-family: 'Gilroy-light';
+font-size: 14px;
+line-height: 140.62%;
+/* identical to box height, or 20px */
+
+
+color: #000000;
+
+}
+.lr2 {
+    position: absolute;
+left: 100%;
+top: 28.05%;
+bottom: 67.07%;
+
+font-family: 'Gilroy-light';
+font-size: 14px;
+line-height: 140.62%;
+/* identical to box height, or 20px */
+
+
+color: #000000;
+
+}
